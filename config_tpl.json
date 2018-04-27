@@ -1,0 +1,39 @@
+{
+  "server" : {
+    "port": 8092
+  },
+  "logger": {
+    "level": 6
+  },
+  "ios": {
+    "wda": {
+      "path": "path/to/wda",
+      "devicePrefix": "device prefix"
+    },
+    "appPath": "/tmp"
+  },
+  "grid": {
+    "host": ""
+  },
+  "capabilities": {
+    "browserVersion": "",
+    "platformName": "WDA"
+  },
+  "statsd": {
+    "host": "localhost",
+    "port": 8125,
+    "protocol": "udp",
+    "prefix": "apps.services.XXX.",
+    "enable": false
+  },
+  "video": {
+    "enable": false,
+    "s3": {
+      "access_key": "",
+      "secret_key": "",
+      "endpoint": "",
+      "bucket": "",
+      "region": ""
+    }
+  }
+}
